@@ -94,117 +94,118 @@ body {
   gap: 1rem;
   background-color: var(--dark-grayish-magenta);
   padding: 2rem;
-  border-radius: 0.5rem;cente
+  border-radius: 0.5rem;
 }
 
 .main__testimonial__card__personal__info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main__testimonial__card__personal__text {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
 }
 
 .main__testimonial__card__avatar {
-    width: 3rem;
-    border-radius: 50%;
-    margin-right: 1rem;
+  width: 3rem;
+  border-radius: 50%;
+  margin-right: 1rem;
 }
 
 .main__testimonial__card__avatar img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
 }
 
 .main__testimonial__card__name {
-    color: var(--white);
-    font-weight: 500;
+  color: var(--white);
+  font-weight: 500;
 }
 
 .main__testimonial__card__title {
-    color: var(--soft-pink);
-    font-weight: 400;
+  color: var(--soft-pink);
+  font-weight: 400;
 }
 
 .main__testimonial__card__message {
-    color: var(--white);
-    font-weight: 400;
+  color: var(--white);
+  font-weight: 400;
 }
 
 @media (min-width: 768px) {
-    body {
-        background-image: url("./images/bg-pattern-top-desktop.svg"), url("./images/bg-pattern-bottom-desktop.svg");
-        background-size: 50%, 80%;
-        height: 100vh;
-    }
+  body {
+    background-image: url("./images/bg-pattern-top-desktop.svg"),
+      url("./images/bg-pattern-bottom-desktop.svg");
+    background-size: 50%, 80%;
+    height: 100vh;
+  }
 
-    .main {
-        display: flex;
-        flex-direction: column;
-        padding: 5rem;
-        gap: 4.3rem;
-    }
+  .main {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    gap: 4.3rem;
+  }
 
-    .main__title__score__row {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);  
-    }
+  .main__title__score__row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .main__heading {
-        align-self: flex-end;
-        justify-self: self-start;
-        place-self: center;
-        text-align: left;
-        width: 60%; 
-        margin-top: 2rem;
-    }
+  .main__heading {
+    align-self: flex-end;
+    justify-self: self-start;
+    place-self: center;
+    text-align: left;
+    width: 60%;
+    margin-top: 2rem;
+  }
 
-    .main__rating__container {
-        grid-column: 2/-1;
-        grid-row: span 2;
-    }
+  .main__rating__container {
+    grid-column: 2/-1;
+    grid-row: span 2;
+  }
 
-    .main__rating__box {
-        width: 55%;
-        display: grid;
-        grid-template-columns: .7fr 1fr;
-        transition: all .7s ease;   
-    }
+  .main__rating__box {
+    width: 55%;
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    transition: all 0.7s ease;
+  }
 
-    .main__rating__box:nth-of-type(1){
-        align-self: flex-start;
-    }
+  .main__rating__box:nth-of-type(1) {
+    align-self: flex-start;
+  }
 
-    .main__rating__box:nth-of-type(2){
-        margin-left: 80px;
-    }
+  .main__rating__box:nth-of-type(2) {
+    margin-left: 80px;
+  }
 
-    .main__rating__box:nth-of-type(3){
-        margin-left: 160px;
-    }
+  .main__rating__box:nth-of-type(3) {
+    margin-left: 160px;
+  }
 
-    .main__testimonial__container {
-        display: flex;
-        flex-direction: row;
-    }
+  .main__testimonial__container {
+    display: flex;
+    flex-direction: row;
+  }
 
-    .main__testimonial__card {
-        height: 70%;
-        font-size: 1.2rem;
-        transition: .7s ease;
-    }
+  .main__testimonial__card {
+    height: 70%;
+    font-size: 1.2rem;
+    transition: 0.7s ease;
+  }
 
-    .main__testimonial__card:nth-of-type(2) {
-        margin-top: 1rem;
-    }
+  .main__testimonial__card:nth-of-type(2) {
+    margin-top: 1rem;
+  }
 
-    .main__testimonial__card:nth-of-type(3) {
-        margin-top: 2rem;
-    }
+  .main__testimonial__card:nth-of-type(3) {
+    margin-top: 2rem;
+  }
 }
